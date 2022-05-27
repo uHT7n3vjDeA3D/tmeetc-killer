@@ -4,3 +4,6 @@ After=gdm.service
 
 [Service]
 ExecStart=/bin/bash /etc/systemd/system/tmeetc-killer/tmeetc-killer-start.sh
+
+[Install]
+WantedBy=gdm.service
