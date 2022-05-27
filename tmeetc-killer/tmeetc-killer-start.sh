@@ -1,6 +1,6 @@
 #!/bin/bash
 
-while true; do
+# while true; do
     miner_RE='tracker-miner-f'
     extract_RE='tracker-extract'
 
@@ -18,7 +18,7 @@ while true; do
         $(kill -s 15 $extract_match)
     fi
 
-    $(rm -rf /home/*/.cache/tracker3)
+    $(rm -r /home/*/.cache/tracker3)
 
     sleep 5
 
@@ -28,4 +28,4 @@ while true; do
     unset miner_match
     unset extract_match
 
-done
+# done
