@@ -1,0 +1,6 @@
+[Unit]
+Description=Tracker miner, extract, etc killer and tracker cache cleaner.
+After=gdm.service
+
+[Service]
+ExecStart=/bin/bash /etc/systemd/system/tmeetc-killer/tmeetc-killer-start.sh
