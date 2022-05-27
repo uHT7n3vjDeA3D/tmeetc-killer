@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# while true; do
+while true; do
     miner_RE='tracker-miner-f'
     extract_RE='tracker-extract'
 
@@ -28,4 +28,4 @@
     unset miner_match
     unset extract_match
 
-# done
+done
