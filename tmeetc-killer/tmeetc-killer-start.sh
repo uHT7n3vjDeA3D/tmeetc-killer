@@ -18,7 +18,7 @@ while true; do
         $(kill -s 15 $extract_match)
     fi
 
-    $(rm -r /home/*/.cache/tracker3)
+    $(rm -r /home/*/.cache/tracker3 > /dev/null 2>&1)
 
     sleep 5
 
